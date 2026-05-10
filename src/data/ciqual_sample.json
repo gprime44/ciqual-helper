@@ -1,0 +1,47 @@
+[
+  {
+    "id": "1",
+    "name": "Baguette, de pain de blé",
+    "energy_kcal": 285,
+    "protein_g": 8.7,
+    "carbohydrates_g": 56.4,
+    "fat_g": 1.2,
+    "fiber_g": 2.9
+  },
+  {
+    "id": "2",
+    "name": "Oeuf, bouilli / dur",
+    "energy_kcal": 155,
+    "protein_g": 12.6,
+    "carbohydrates_g": 1.1,
+    "fat_g": 10.6,
+    "fiber_g": 0
+  },
+  {
+    "id": "3",
+    "name": "Pomme, crue avec la peau",
+    "energy_kcal": 52,
+    "protein_g": 0.3,
+    "carbohydrates_g": 11.4,
+    "fat_g": 0.2,
+    "fiber_g": 2.4
+  },
+  {
+    "id": "4",
+    "name": "Beurre, doux",
+    "energy_kcal": 717,
+    "protein_g": 0.9,
+    "carbohydrates_g": 0.1,
+    "fat_g": 81.1,
+    "fiber_g": 0
+  },
+  {
+    "id": "5",
+    "name": "Lait demi-écrémé, UHT",
+    "energy_kcal": 46,
+    "protein_g": 3.3,
+    "carbohydrates_g": 4.8,
+    "fat_g": 1.6,
+    "fiber_g": 0
+  }
+]

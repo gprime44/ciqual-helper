@@ -1,0 +1,81 @@
+[
+  {
+    "id": "diabetes_t1",
+    "name": "Diabète de type 1",
+    "description": "Optimisation de l'apport en glucides complexes et fibres pour une meilleure stabilité glycémique.",
+    "monitoredNutrients": ["31000", "32000", "34100"],
+    "goals": { "32000": "decrease", "34100": "increase" },
+    "recommendations": {
+      "32000": { "max": 15 },
+      "34100": { "min": 8 }
+    }
+  },
+  {
+    "id": "diabetes_t2",
+    "name": "Diabète de type 2",
+    "description": "Priorité aux aliments à index glycémique bas et équilibre des apports énergétiques.",
+    "monitoredNutrients": ["328", "31000", "32000", "34100", "40000"],
+    "goals": { "328": "decrease", "32000": "decrease", "34100": "increase" },
+    "recommendations": {
+      "32000": { "max": 12 },
+      "34100": { "min": 10 },
+      "40000": { "max": 25 }
+    }
+  },
+  {
+    "id": "hypothyroidism",
+    "name": "Hypothyroïdie",
+    "description": "Favoriser les apports en iode et sélénium pour soutenir la fonction thyroïdienne.",
+    "monitoredNutrients": ["10530", "10340", "328"],
+    "goals": { "10530": "increase", "10340": "increase" },
+    "recommendations": {
+      "10530": { "min": 50 },
+      "10340": { "min": 20 }
+    }
+  },
+  {
+    "id": "hyperthyroidism",
+    "name": "Hyperthyroïdie",
+    "description": "Accompagnement de l'augmentation des besoins énergétiques et gestion des apports en iode.",
+    "monitoredNutrients": ["328", "25000", "10530"],
+    "goals": { "328": "increase", "25000": "increase" },
+    "recommendations": {
+      "10530": { "max": 100 }
+    }
+  },
+  {
+    "id": "addison",
+    "name": "Maladie d'Addison",
+    "description": "Assurer un apport sodé adéquat et équilibre du potassium.",
+    "monitoredNutrients": ["10110", "10190", "400"],
+    "goals": { "10110": "increase", "10190": "decrease" },
+    "recommendations": {
+      "10110": { "min": 1.0 },
+      "10190": { "max": 1200 }
+    }
+  },
+  {
+    "id": "cushing",
+    "name": "Syndrome de Cushing",
+    "description": "Équilibre de l'apport sodé et optimisation de la consommation de glucides.",
+    "monitoredNutrients": ["10110", "31000", "32000", "328"],
+    "goals": { "10110": "decrease", "32000": "decrease" },
+    "recommendations": {
+      "10110": { "max": 0.6 },
+      "32000": { "max": 15 }
+    }
+  },
+  {
+    "id": "metabolic_syndrome",
+    "name": "Syndrome Métabolique",
+    "description": "Promotion du modèle méditerranéen : privilégier les acides gras insaturés et les fibres.",
+    "monitoredNutrients": ["328", "40000", "40302", "32000", "10110"],
+    "goals": { "40302": "decrease", "32000": "decrease", "10110": "decrease", "34100": "increase" },
+    "recommendations": {
+      "40302": { "max": 8 },
+      "32000": { "max": 15 },
+      "10110": { "max": 0.7 },
+      "34100": { "min": 10 }
+    }
+  }
+]
