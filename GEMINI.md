@@ -53,13 +53,6 @@ Proactively suggest healthier alternatives to a selected food item based on the 
 - **Styling**: Vanilla CSS.
 - **Testing**: Jest and React Testing Library.
 
-## Engineering Standards (Groupe Nickel)
-Adhere to the standards defined in `20_company.md`:
-- **Language**: English for all code, documentation, and commits. **UI MUST be in French.**
-- **Naming**: Use UUIDs for functional keys.
-- **Git**: Use [Gitmoji](https://gitmoji.dev/) for commit messages.
-- **Testing**: Follow the Testing Trophy model. Minimum 60% coverage for new developments.
-
 ## Data Integration
 - **Source**: Official CIQUAL 2025 table (ANSES).
 - **Format**: XML parsed to a compact JSON (`ciqual_full.json`).
